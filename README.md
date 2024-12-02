@@ -1,6 +1,3 @@
-Here's a GitHub Markdown for your repository:
-
-```markdown
 # ApfelDAW 🍏🎶
 
 ApfelDAW is a simple and basic Digital Audio Workstation (DAW) written in **C++** with a clean and intuitive **GUI**. It provides essential tools for audio editing and mixing, perfect for beginners and those who want a lightweight DAW experience.
