@@ -129,11 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="daw.h" />
+    <ClInclude Include="dnd.h" />
     <ClInclude Include="gui.h" />
     <ClInclude Include="trackeditor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="daw.cpp" />
+    <ClCompile Include="dnd.cpp" />
     <ClCompile Include="gui.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="trackeditor.cpp" />

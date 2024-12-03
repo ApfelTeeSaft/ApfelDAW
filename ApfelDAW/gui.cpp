@@ -38,9 +38,11 @@ GUI::GUI(const wxString& title)
 }
 
 void GUI::OnOpenTrackEditor(wxCommandEvent& event) {
-    auto* editor = new TrackEditor(&daw);
+    auto* editor = new TrackEditor(&daw, this);
     editor->Show(true);
+    this->Hide();
 }
+
 
 void GUI::OnAddTrack(wxCommandEvent& event) {
     wxFileDialog openFileDialog(this, wxT("Select Audio File"), "", "",
